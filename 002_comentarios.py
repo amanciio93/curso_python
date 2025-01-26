@@ -1,0 +1,1 @@
+# Faço comentários usando a cerquilha no início da linha.
