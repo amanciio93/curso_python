@@ -4,12 +4,13 @@
     Conte o numero de tentativas.
 """
 
-acertou = 'n'
+#Importando um módulo
+import os
 tentativas = 0
 palavra_secreta = 'biblia'
 letras_acertadas = ''
 
-while acertou != 's':
+while True:
     chute = input("Qual letra deseja chutar? ")
     tentativas += 1
 
@@ -32,5 +33,6 @@ while acertou != 's':
     print(palavra_formada)
 
     if palavra_formada == palavra_secreta:
-        print(f"Parabén, você ganhou após {tentativas} tentativas!.")
+        print(f"Parabéns, você ganhou após {tentativas} tentativas!.")
+        print(f"A palavra secreta era '{palavra_secreta}'")
         break
