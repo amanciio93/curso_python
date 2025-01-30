@@ -1,4 +1,4 @@
-for i in range(8): # 8 ou 10
+for i in range(8): # 8 ou 10 no range
     if i == 2:
         print("i é 2, pulando...")
         continue
